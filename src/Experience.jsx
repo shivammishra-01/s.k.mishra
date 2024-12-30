@@ -7,6 +7,8 @@ import Nodejs from "../public/nodejs.png";
 import reactjs from "../public/reactjs.png";
 import mongoDB from "../public/mongodb.jpg";
 import express from "../public/express.png";
+import reactnative from "../public/reactnative.png";
+import PHP from "../public/php.png";
 
 function Experience() {
   const cardItem = [
@@ -14,10 +16,12 @@ function Experience() {
     { id: 2, logo: css, name: "CSS" },
     { id: 3, logo: javascript, name: "JavaScript" },
     { id: 4, logo: Bootstrap, name: "Bootstrap" },
-    { id: 5, logo: Nodejs, name: "Node.js" },
-    { id: 6, logo: reactjs, name: "ReactJS" },
+    { id: 5, logo: reactjs, name: "react.js" },
+    { id: 6, logo: Nodejs, name: "Node.js" },
     { id: 7, logo: mongoDB, name: "MongoDB" },
     { id: 8, logo: express, name: "Express JS" },
+    { id: 9, logo: reactnative, name: "React Native" },
+    { id: 10, logo: PHP, name: "PHP" },
   ];
 
   return (
@@ -29,8 +33,9 @@ function Experience() {
         Skills & Technologies
       </h1>
       <p className="text-center text-lg mb-12 text-gray-600">
-        Over the past 2 years, I've honed my skills in front-end development, 
-        working extensively with a variety of technologies to build responsive and dynamic web applications.
+        Over the past 2 years, I've honed my skills in front-end development,
+        working extensively with a variety of technologies to build responsive
+        and dynamic web applications.
       </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
         {cardItem.map(({ id, logo, name }) => (
