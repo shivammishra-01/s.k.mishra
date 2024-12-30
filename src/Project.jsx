@@ -5,6 +5,7 @@ import BookStore from "../public/BookStore.png";
 import Game from "../public/Game.png";
 import Lending from "../public/mandi.png";
 import Weather from "../public/Weather.png";
+import mithila from "../public/mithila.png";
 
 function Project() {
   const [expanded, setExpanded] = useState({});
@@ -21,30 +22,32 @@ function Project() {
       id: 1,
       logo: Spotify,
       name: "CSaR Website",
-      // link: "https://vanshtastic.netlify.app/",
+      link: "https://csarcutm.infinityfreeapp.com/",
       description:
-        "Vanshtastic, a shopping website, where I developed reusable and maintainable cross-platform code.",
+        "CSaR website has completed this website is for our college csar clubs it is a multipage website. it very helpful and will replace the manual attendance taker work. other works and store data for all.",
     },
     {
       id: 2,
       logo: Lending,
       name: "MANDI.COM",
+      link: "https://mandi-app.vercel.app/",
       description:
-        "A Smart Blood Banking System using React, Node.js, and MongoDB enables efficient blood donation management by allowing user registration, blood type search, and real-time inventory tracking. It streamlines the process for donors and medical institutions with a user-friendly interface.",
+        "Mandi is an online platform enabling farmers to buy and sell agricultural products, ensuring better market access and price transparency. It connects farmers directly with buyers, built with React.js for the frontend and Spring Boot for the backend.",
     },
     {
       id: 3,
-      logo: BookStore,
-      name: "BookStore Website",
+      logo: mithila,
+      name: " Mithilacolors",
+      link: "https://mithilacolors.vercel.app/",
       description:
-        "A weather app built with HTML, CSS, and JavaScript. It provides current weather information based on the user's location and features a clean, responsive design. This project showcases skills in web development and API integration.",
+        " MithilaColors, a web platform dedicated to celebrating the rich cultural heritage of Mithila through its iconic Madhubani paintings.",
     },
     {
       id: 4,
-      logo: Game,
-      name: "Tic-tac-toe Game",
+      logo: BookStore,
+      name: "BookStore Website",
       description:
-        "A classic Tic-Tac-Toe game developed using HTML, CSS, and JavaScript. It features a simple, interactive interface where players can take turns marking Xs and Os. This project demonstrates skills in game logic implementation and user interface design.",
+        "The BookStore website is a responsive React.js application designed for browsing and purchasing books online. It features a clean UI, search functionality, and a user-friendly experience for seamless book selection and checkout.",
     },
     {
       id: 5,

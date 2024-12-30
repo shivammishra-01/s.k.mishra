@@ -1,0 +1,65 @@
+/* Contacts.module.css */
+.contactSection {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #f7fafc, #edf2f7, #e2e8f0);
+  overflow-y: scroll;
+}
+
+.contactForm {
+  width: 100%;
+  max-width: 32rem;
+  background-color: white;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  z-index: 20;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: red transparent;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+.socialIcon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.socialIcon:hover {
+  transform: scale(1.1);
+}
