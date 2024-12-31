@@ -72,7 +72,7 @@ function Project() {
       className="max-w-screen-2xl container mx-auto px-4 md:px-8 lg:px-16 my-12"
     >
       <h1 className="text-4xl font-extrabold mb-8 text-center text-gray-800">
-        Live Projects
+        Projects
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {cardItem.map(({ id, logo, name, link, description }) => (

@@ -116,7 +116,7 @@ function Home() {
         </div>
         <div className="flex justify-center mt-8">
           <a
-            href="https://drive.google.com/file/d/1FE-Z8TEkSb4Bls5IOsrXsDrAMDkC3kes/view?usp=drive_link" // Updated link
+            href="https://drive.google.com/file/d/1TQoPGAwOgpX9OVbi40XAt92VaxgW06mT/view?usp=drive_link" // Updated link
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-blue-500 text-white text-lg font-bold rounded-full hover:bg-blue-600 transition duration-300"

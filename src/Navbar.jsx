@@ -10,8 +10,9 @@ function Navbar() {
     { id: 1, text: "Home" },
     { id: 2, text: "About" },
     { id: 3, text: "Experience" },
-    { id: 4, text: "Project" },
-    { id: 5, text: "Contact" }, // Ensure this matches with the contact section ID
+    { id: 4, text: "Certification" },
+    { id: 5, text: "Project" },
+    { id: 6, text: "Contact" }, // Ensure this matches with the contact section ID
   ];
 
   useEffect(() => {
